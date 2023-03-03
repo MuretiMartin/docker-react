@@ -7,14 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-<<<<<<< HEAD
           My Name is Mureti Martin
-=======
-          I was changed on the feature  branch 
->>>>>>> origin/master
         </p>
         <a
-          className="App- link"
+          className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
