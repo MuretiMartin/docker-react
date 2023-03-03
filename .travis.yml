@@ -7,7 +7,7 @@ before_install :
 script:
    - docker run mmuretimartin/docker-react npm run test -- --coverage --watchAll=false
 deploy:
-   provider: elasticbeanstalk
+   provider: elasticbeanstalk 
    region: "us-east-1"
    app: "docker"
    env: "Docker-env"
@@ -16,6 +16,6 @@ deploy:
    on:
       branch: master
    access_key_id: $AWS_ACCESS_KEY
-   secret_access_key: "$AWS_SECRET_KEY"
+   secret_access_key: $AWS_SECRET_KEY
 
       
